@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 
 import { LoadingPageModule, MaterialBarModule } from 'angular-loading-page';
 import { BackgroundComponent } from './background/background.component';
+import { HelperComponent } from './helper/helper.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { BackgroundComponent } from './background/background.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    HelperComponent
   ],
   bootstrap: [AppComponent]
 })
